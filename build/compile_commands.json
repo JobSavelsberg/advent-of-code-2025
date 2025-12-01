@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/job/advent-of-code-2025/build",
+  "command": "/usr/bin/g++ -DSOURCE_DIR=\\\"/home/job/advent-of-code-2025\\\" -I/home/job/advent-of-code-2025/src/util -g -o CMakeFiles/utils.dir/src/util/input.cpp.o -c /home/job/advent-of-code-2025/src/util/input.cpp",
+  "file": "/home/job/advent-of-code-2025/src/util/input.cpp",
+  "output": "CMakeFiles/utils.dir/src/util/input.cpp.o"
+},
+{
+  "directory": "/home/job/advent-of-code-2025/build",
+  "command": "/usr/bin/g++ -DDAY=1 -DSOURCE_DIR=\\\"/home/job/advent-of-code-2025\\\" -I/home/job/advent-of-code-2025/src/util -g -o CMakeFiles/day1.dir/src/day1/day1.cpp.o -c /home/job/advent-of-code-2025/src/day1/day1.cpp",
+  "file": "/home/job/advent-of-code-2025/src/day1/day1.cpp",
+  "output": "CMakeFiles/day1.dir/src/day1/day1.cpp.o"
+}
+]

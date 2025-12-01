@@ -1,0 +1,4 @@
+/home/job/advent-of-code-2025/build/CMakeFiles/utils.dir
+/home/job/advent-of-code-2025/build/CMakeFiles/day1.dir
+/home/job/advent-of-code-2025/build/CMakeFiles/edit_cache.dir
+/home/job/advent-of-code-2025/build/CMakeFiles/rebuild_cache.dir
