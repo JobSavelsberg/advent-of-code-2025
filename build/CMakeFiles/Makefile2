@@ -64,7 +64,7 @@ CMAKE_BINARY_DIR = /home/job/advent-of-code-2025/build
 
 # The main recursive "all" target.
 all: CMakeFiles/utils.dir/all
-all: CMakeFiles/day1.dir/all
+all: CMakeFiles/day2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/utils.dir/clean
-clean: CMakeFiles/day1.dir/clean
+clean: CMakeFiles/day2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -103,30 +103,30 @@ CMakeFiles/utils.dir/clean:
 .PHONY : CMakeFiles/utils.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/day1.dir
+# Target rules for target CMakeFiles/day2.dir
 
 # All Build rule for target.
-CMakeFiles/day1.dir/all: CMakeFiles/utils.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.dir/build.make CMakeFiles/day1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.dir/build.make CMakeFiles/day1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/job/advent-of-code-2025/build/CMakeFiles --progress-num=1,2 "Built target day1"
-.PHONY : CMakeFiles/day1.dir/all
+CMakeFiles/day2.dir/all: CMakeFiles/utils.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.dir/build.make CMakeFiles/day2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.dir/build.make CMakeFiles/day2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/job/advent-of-code-2025/build/CMakeFiles --progress-num=1,2 "Built target day2"
+.PHONY : CMakeFiles/day2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/day1.dir/rule: cmake_check_build_system
+CMakeFiles/day2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/job/advent-of-code-2025/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/day1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/day2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/job/advent-of-code-2025/build/CMakeFiles 0
-.PHONY : CMakeFiles/day1.dir/rule
+.PHONY : CMakeFiles/day2.dir/rule
 
 # Convenience name for target.
-day1: CMakeFiles/day1.dir/rule
-.PHONY : day1
+day2: CMakeFiles/day2.dir/rule
+.PHONY : day2
 
 # clean rule for target.
-CMakeFiles/day1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.dir/build.make CMakeFiles/day1.dir/clean
-.PHONY : CMakeFiles/day1.dir/clean
+CMakeFiles/day2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.dir/build.make CMakeFiles/day2.dir/clean
+.PHONY : CMakeFiles/day2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

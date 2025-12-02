@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "../util/input.h"
+#include "input.h"
 
 void partOne()
 {

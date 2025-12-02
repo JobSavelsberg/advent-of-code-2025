@@ -130,41 +130,41 @@ utils/fast:
 .PHONY : utils/fast
 
 #=============================================================================
-# Target rules for targets named day1
+# Target rules for targets named day2
 
 # Build rule for target.
-day1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day1
-.PHONY : day1
+day2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day2
+.PHONY : day2
 
 # fast build rule for target.
-day1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.dir/build.make CMakeFiles/day1.dir/build
-.PHONY : day1/fast
+day2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.dir/build.make CMakeFiles/day2.dir/build
+.PHONY : day2/fast
 
-src/day1/day1.o: src/day1/day1.cpp.o
-.PHONY : src/day1/day1.o
+src/day2/day2.o: src/day2/day2.cpp.o
+.PHONY : src/day2/day2.o
 
 # target to build an object file
-src/day1/day1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.dir/build.make CMakeFiles/day1.dir/src/day1/day1.cpp.o
-.PHONY : src/day1/day1.cpp.o
+src/day2/day2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.dir/build.make CMakeFiles/day2.dir/src/day2/day2.cpp.o
+.PHONY : src/day2/day2.cpp.o
 
-src/day1/day1.i: src/day1/day1.cpp.i
-.PHONY : src/day1/day1.i
+src/day2/day2.i: src/day2/day2.cpp.i
+.PHONY : src/day2/day2.i
 
 # target to preprocess a source file
-src/day1/day1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.dir/build.make CMakeFiles/day1.dir/src/day1/day1.cpp.i
-.PHONY : src/day1/day1.cpp.i
+src/day2/day2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.dir/build.make CMakeFiles/day2.dir/src/day2/day2.cpp.i
+.PHONY : src/day2/day2.cpp.i
 
-src/day1/day1.s: src/day1/day1.cpp.s
-.PHONY : src/day1/day1.s
+src/day2/day2.s: src/day2/day2.cpp.s
+.PHONY : src/day2/day2.s
 
 # target to generate assembly for a file
-src/day1/day1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.dir/build.make CMakeFiles/day1.dir/src/day1/day1.cpp.s
-.PHONY : src/day1/day1.cpp.s
+src/day2/day2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.dir/build.make CMakeFiles/day2.dir/src/day2/day2.cpp.s
+.PHONY : src/day2/day2.cpp.s
 
 src/util/input.o: src/util/input.cpp.o
 .PHONY : src/util/input.o
@@ -198,11 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... day1"
+	@echo "... day2"
 	@echo "... utils"
-	@echo "... src/day1/day1.o"
-	@echo "... src/day1/day1.i"
-	@echo "... src/day1/day1.s"
+	@echo "... src/day2/day2.o"
+	@echo "... src/day2/day2.i"
+	@echo "... src/day2/day2.s"
 	@echo "... src/util/input.o"
 	@echo "... src/util/input.i"
 	@echo "... src/util/input.s"

@@ -49,6 +49,7 @@ CMakeFiles/utils.dir/src/util/input.cpp.o: /home/job/advent-of-code-2025/src/uti
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -93,6 +94,7 @@ CMakeFiles/utils.dir/src/util/input.cpp.o: /home/job/advent-of-code-2025/src/uti
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
@@ -286,11 +288,15 @@ CMakeFiles/utils.dir/src/util/input.cpp.o: /home/job/advent-of-code-2025/src/uti
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/include/c++/13/cstdlib:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -311,6 +317,8 @@ CMakeFiles/utils.dir/src/util/input.cpp.o: /home/job/advent-of-code-2025/src/uti
 /usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/sstream:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -347,6 +355,8 @@ CMakeFiles/utils.dir/src/util/input.cpp.o: /home/job/advent-of-code-2025/src/uti
 /usr/include/c++/13/bits/fstream.tcc:
 
 /home/job/advent-of-code-2025/src/util/input.h:
+
+/usr/include/c++/13/bits/sstream.tcc:
 
 /usr/include/c++/13/cwctype:
 
@@ -434,9 +444,9 @@ CMakeFiles/utils.dir/src/util/input.cpp.o: /home/job/advent-of-code-2025/src/uti
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
-/usr/include/c++/13/bits/functexcept.h:
-
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/13/bits/functexcept.h:
 
 /usr/include/c++/13/bits/stl_iterator.h:
 
@@ -495,8 +505,6 @@ CMakeFiles/utils.dir/src/util/input.cpp.o: /home/job/advent-of-code-2025/src/uti
 /usr/include/c++/13/fstream:
 
 /usr/include/c++/13/cstdio:
-
-/usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/debug/assertions.h:
 
@@ -591,5 +599,3 @@ CMakeFiles/utils.dir/src/util/input.cpp.o: /home/job/advent-of-code-2025/src/uti
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
