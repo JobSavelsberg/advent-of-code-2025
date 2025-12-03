@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10.0)
 project(AdventOfCode2025 VERSION 0.1.0 LANGUAGES C CXX)
 
-set(DAY 2)
+set(DAY 3)
 
 # Use boost
 find_package(Boost REQUIRED)
