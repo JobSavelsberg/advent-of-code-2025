@@ -12,7 +12,7 @@ namespace util
 
         if (!inputFile.is_open())
         {
-            std::cerr << "Error: Could not open " << filename << std::endl;
+            throw std::runtime_error("Could not open file");
             return {};
         }
 

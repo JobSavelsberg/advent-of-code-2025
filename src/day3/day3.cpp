@@ -8,14 +8,14 @@ std::vector<std::vector<int>> createGridOfJoltages(const std::string &inputFile)
     // Turn each line in a vector of ints
     std::vector<std::vector<int>> grid;
 
-    for (const std::string line : lines)
+    for (const std::string &line : lines)
     {
         std::vector<int> bank;
         for (const char digitChar : line)
         {
-            bank.emplace_back(std::stoi(std::string(1, digitChar)));
+            bank.push_back(digitChar - '0');
         }
-        grid.emplace_back(bank);
+        grid.push_back(bank);
     }
 
     return grid;
@@ -27,7 +27,7 @@ void partOne()
 
     int totalJoltage = 0;
 
-    for (const std::vector<int> bank : grid)
+    for (const std::vector<int> &bank : grid)
     {
         int highestFirstDigit = 0;
         int highestSecondDigit = 0;
@@ -67,22 +67,22 @@ void partTwo()
 
     const std::vector<std::vector<int>> grid = createGridOfJoltages("src/day3/input.txt");
 
-    const int bankSize = grid[0].size();
+    const int bankSize = static_cast<int>(grid[0].size());
     const int numberOfBatteries = 12;
 
     long long totalJoltage = 0;
 
-    for (const std::vector<int> bank : grid)
+    for (const std::vector<int> &bank : grid)
     {
         // Select last 12 batteries (by index, so 5 means battery 5, which might have joltage 1)
         std::vector<int> selectedBatteries;
-        for (int b = bankSize - numberOfBatteries; b < bankSize; b++)
+        for (auto b = bankSize - numberOfBatteries; b < bankSize; b++)
         {
-            selectedBatteries.emplace_back(b);
+            selectedBatteries.push_back(b);
         }
 
         // Now for each selected battery, see what the highest battery joltage to the left is
-        for (int i = 0; i < selectedBatteries.size(); i++)
+        for (auto i = 0; i < selectedBatteries.size(); i++)
         {
             // The battery index that we're looking at
             const int b = selectedBatteries[i];
@@ -116,7 +116,7 @@ void partTwo()
 
         // Get the number for the selected indexes
         long long bankJoltage = 0;
-        for (int i = 0; i < selectedBatteries.size(); i++)
+        for (auto i = 0; i < selectedBatteries.size(); i++)
         {
             // E.g. when we have 7 batteries, the first battery is the 'million' digit.
             // So order would be (7 - 0 - 1) = 6
