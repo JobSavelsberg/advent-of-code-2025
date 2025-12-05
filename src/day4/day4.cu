@@ -139,7 +139,6 @@ void partOne()
 {
   Grid originalGrid = getNewGrid("src/day4/input.txt");
 
-  // Part one
   int removedRolls = removeRollsIterative(originalGrid);
   std::cout
       << "Answer: "
@@ -150,7 +149,6 @@ void partTwo()
 {
   Grid originalGrid = getNewGrid("src/day4/input.txt");
 
-  // Part one
   int removedRolls = removeRollsIterative(originalGrid, 10000);
   std::cout
       << "Answer: "
