@@ -7,7 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(CMAKE_CUDA_STANDARD 14)
 
-set(DAY 8)
+set(DAY 9)
 
 # Use boost
 find_package(Boost REQUIRED)
