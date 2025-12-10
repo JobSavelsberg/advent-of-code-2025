@@ -48,4 +48,22 @@ namespace util
         inputFile.close();
         return items;
     }
+
+    std::vector<std::string_view> splitString(const std::string_view input, const std::string_view delimiters)
+    {
+        std::vector<std::string_view> result;
+        std::size_t last_pos = 0;
+        for (std::size_t i = 0; i < input.size(); ++i)
+        {
+            if (delimiters.find(input[i]) != delimiters.npos)
+            {
+                result.push_back(input.substr(last_pos, i - last_pos));
+                ++i;
+                last_pos = i;
+            }
+        }
+
+        result.push_back(input.substr(last_pos, input.size()));
+        return result;
+    }
 }
